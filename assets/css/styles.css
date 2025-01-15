@@ -1103,9 +1103,9 @@ footer {
   .banner__content::before {
     top: auto;
     bottom: 0;
+    display: none;
   }
   .banner__content::after {
-    display: none;
     background: linear-gradient(360deg, rgb(0, 18, 16) 76%, rgba(0, 18, 16, 0.95) 90%, rgba(0, 18, 16, 0.7) 95%, rgba(0, 18, 16, 0) 100%);
     top: auto;
     bottom: 0;
