@@ -891,6 +891,7 @@ footer {
 .footer__media img {
   width: 32px;
   aspect-ratio: 1/1;
+  height: auto;
 }
 
 .footer__copyright {
