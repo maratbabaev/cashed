@@ -1281,6 +1281,10 @@ footer {
 	.block__container {
 		border-radius: 24px;
 	}
+	.block__container:after,
+	.header__btn:before {
+		display: none;
+	}
 	.block__content {
 		padding: 0 20px 30px;
 		width: 100%;
