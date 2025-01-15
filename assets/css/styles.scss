@@ -1189,6 +1189,17 @@ footer {
 	.footer__menu {
 		grid-template-columns: repeat(3, 1fr);
 	}
+	header:before,
+	.sidebar:before {
+		background: none;
+	}
+	.wrap {
+		background-image: none;
+	}
+	.block__container:after,
+	.header__btn:before {
+		display: none;
+	}
 }
 
 @media (max-width: 767px) {
@@ -1281,10 +1292,7 @@ footer {
 	.block__container {
 		border-radius: 24px;
 	}
-	.block__container:after,
-	.header__btn:before {
-		display: none;
-	}
+
 	.block__content {
 		padding: 0 20px 30px;
 		width: 100%;
