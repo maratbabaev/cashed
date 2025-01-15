@@ -344,6 +344,7 @@ header .container {
   -o-object-fit: cover;
      object-fit: cover;
   transition: 0.2s;
+  border-radius: 50%;
 }
 .sidebar__footer a svg-icon-sprite svg,
 .sidebar__footer a img svg {
