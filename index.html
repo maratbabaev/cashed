@@ -582,8 +582,12 @@
     </footer>
   </div>
 
-  <link rel="stylesheet" href="assets//fonts/Jost/stylesheet.css">
-  <link rel="stylesheet" href="assets//fonts/Ysabeau/stylesheet.css">
+
+  <link rel="preload" href="assets/fonts/Jost/stylesheet.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <link rel="preload" href="assets/fonts/Ysabeau/stylesheet.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+
+  <!-- <link rel="stylesheet" href="assets//fonts/Jost/stylesheet.css">
+  <link rel="stylesheet" href="assets/fonts/Ysabeau/stylesheet.css"> -->
   <script src="assets/js/script.js?v=1.0.1"></script>
 </body>
 </html>
