@@ -42,7 +42,6 @@ svg-icon-sprite svg {
   src: url("../fonts/BaystarScriptLight.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
 }
 body {
   font-size: 16px;
