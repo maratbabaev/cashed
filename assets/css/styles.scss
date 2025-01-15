@@ -1189,17 +1189,17 @@ footer {
 	.footer__menu {
 		grid-template-columns: repeat(3, 1fr);
 	}
-	header:before,
-	.sidebar:before {
-		background: none;
-	}
-	.wrap {
-		background-image: none;
-	}
-	.block__container:after,
-	.header__btn:before {
-		display: none;
-	}
+	// header:before,
+	// .sidebar:before {
+	// 	background: none;
+	// }
+	// .wrap {
+	// 	background-image: none;
+	// }
+	// .block__container:after,
+	// .header__btn:before {
+	// 	display: none;
+	// }
 }
 
 @media (max-width: 767px) {
