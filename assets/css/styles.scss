@@ -1227,6 +1227,7 @@ footer {
 		bottom: 0;
 	}
 	.banner__content::after {
+		display: none;
 		background: linear-gradient(
 			360deg,
 			rgb(0, 18, 16) 76%,
