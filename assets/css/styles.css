@@ -415,10 +415,6 @@ header .container {
   width: 100%;
   height: 100%;
   pointer-events: none;
-  background-image: url("../images/light_effect.webp");
-  background-size: auto 400px;
-  background-position: center bottom;
-  background-repeat: no-repeat;
 }
 .banner__content::after {
   z-index: 1;
@@ -509,10 +505,7 @@ header .container {
   text-shadow: 0 2px 0 rgba(0, 0, 0, 0.5);
   border: 2px solid rgb(255, 207, 115);
   box-shadow: 0 20px 16px rgba(0, 0, 0, 0.2), 0 3px 0 0;
-  background-image: url("../images/button_animation.webp");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
+  background: radial-gradient(152.76% 108.61% at 50% 118.13%, rgba(255, 247, 234, 0.9) 12.93%, rgba(255, 217, 156, 0.9) 33.8%, rgba(190, 147, 78, 0) 80.98%), linear-gradient(180deg, #8a6326 0%, #af823c 50%);
   width: 360px;
   aspect-ratio: 360/80;
 }
